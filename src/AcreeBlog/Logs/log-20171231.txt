@@ -1,0 +1,90 @@
+2017-12-31T13:16:57.6896001-06:00 0HLAG0NU7SRJ8:0000000B [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.Net.Http.HttpRequestException: An error occurred when retrieving user information (Forbidden). Please check if the authentication information is correct and the corresponding Google+ API is enabled.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 269
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-12-31T13:25:04.6156001-06:00 0HLAGGGOP77A3:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T13:25:04.6426001-06:00 0HLAGGGOP77A3:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T13:25:37.4846001-06:00 0HLAGGGOP77A3:00000005 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.Net.Http.HttpRequestException: An error occurred when retrieving user information (Forbidden). Please check if the authentication information is correct and the corresponding Google+ API is enabled.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 269
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-12-31T13:27:49.5906001-06:00 0HLAGGI9VA0HI:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T13:27:49.6086001-06:00 0HLAGGI9VA0HI:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T13:28:22.4666001-06:00 0HLAGGI9VA0HI:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.Net.Http.HttpRequestException: An error occurred when retrieving user information (Forbidden). Please check if the authentication information is correct and the corresponding Google+ API is enabled.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 269
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-12-31T13:55:37.4986001-06:00 0HLAGH1R0BPSJ:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T13:55:37.5186001-06:00 0HLAGH1R0BPSJ:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T13:56:19.5066001-06:00 0HLAGH1R0BPSO:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.Net.Http.HttpRequestException: An error occurred when retrieving user information (Forbidden). Please check if the authentication information is correct and the corresponding Google+ API is enabled.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 269
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-12-31T18:16:30.7946001-06:00 0HLAGLJK25K6J:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T18:16:30.8196001-06:00 0HLAGLJK25K6J:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T23:31:54.3696001-06:00 0HLAGR3RCOJQ2:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T23:31:54.4196001-06:00 0HLAGR3RCOJQ2:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2017-12-31T23:58:02.9436001-06:00 0HLAGR3RCOJQ4:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.Net.Http.HttpRequestException: An error occurred when retrieving user information (Forbidden). Please check if the authentication information is correct and the corresponding Google+ API is enabled.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 326
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()

@@ -1,0 +1,740 @@
+2018-01-02T07:56:42.9736001-06:00 0HLAHT2JK3M1I:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T07:56:42.9956001-06:00 0HLAHT2JK3M1I:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:00:36.4726001-06:00 0HLAHT4P5RE6I:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:00:36.4966001-06:00 0HLAHT4P5RE6I:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:03:33.1806001-06:00 0HLAHT6DT9RDI:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:03:33.2016001-06:00 0HLAHT6DT9RDI:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:05:04.0526001-06:00 0HLAHT6DT9RDI:00000005 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:05:08.7786001-06:00 0HLAHT6DT9RDN:00000003 [WRN] Warning - BlogPost with null Id called. (39585ac2)
+2018-01-02T08:05:17.0796001-06:00 0HLAHT6DT9RDK:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:05:55.1886001-06:00 0HLAHT7O85I7J:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:05:55.2106001-06:00 0HLAHT7O85I7J:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:06:07.4986001-06:00 0HLAHT7O85I7J:00000004 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:06:13.0316001-06:00 0HLAHT7O85I7J:00000007 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:06:15.9596001-06:00 0HLAHT7O85I7K:00000001 [WRN] Warning - BlogPost with null Id called. (39585ac2)
+2018-01-02T08:10:28.2646001-06:00 0HLAHTA9K49A3:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:10:28.2846001-06:00 0HLAHTA9K49A3:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:10:48.2806001-06:00 0HLAHTA9K49A3:00000002 [ERR] The view '"BlogPostBySlug"' was not found. Searched locations: ["/Views/Home/BlogPostBySlug.cshtml", "/Views/Shared/BlogPostBySlug.cshtml"] (9bb2756c)
+2018-01-02T08:10:49.1126001-06:00 0HLAHTA9K49A3:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: The view 'BlogPostBySlug' was not found. The following locations were searched:
+/Views/Home/BlogPostBySlug.cshtml
+/Views/Shared/BlogPostBySlug.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebMarkupMin.AspNetCore2.WebMarkupMinMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:12:22.4576001-06:00 0HLAHTBBL7V72:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:12:22.4746001-06:00 0HLAHTBBL7V72:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:13:00.7436001-06:00 0HLAHTBBL7V72:00000006 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:13:14.9286001-06:00 0HLAHTBBL7V72:00000009 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:27:43.5596001-06:00 0HLAHTBBL7V75:00000008 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:28:08.5946001-06:00 0HLAHTBBL7V76:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:31:06.4326001-06:00 0HLAHTLQJUAFJ:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:31:06.4576001-06:00 0HLAHTLQJUAFJ:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:33:27.7716001-06:00 0HLAHTLQJUAFK:00000004 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:33:34.3566001-06:00 0HLAHTLQJUAFK:00000007 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:35:14.5336001-06:00 0HLAHTO4I0E1I:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:35:14.5576001-06:00 0HLAHTO4I0E1I:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:36:20.6196001-06:00 0HLAHTO4I0E1I:00000007 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:36:25.8306001-06:00 0HLAHTO4I0E1I:0000000A [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:36:29.9246001-06:00 0HLAHTO4I0E1K:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:37:12.1406001-06:00 0HLAHTO4I0E1M:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:41:39.1206001-06:00 0HLAHTRN66KGI:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:41:39.1496001-06:00 0HLAHTRN66KGI:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:41:58.1156001-06:00 0HLAHTRN66KGI:00000004 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:42:11.4146001-06:00 0HLAHTRN66KGI:00000007 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:43:06.5416001-06:00 0HLAHTRN66KGK:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:43:18.3816001-06:00 0HLAHTRN66KGL:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:44:27.5536001-06:00 0HLAHTRN66KGM:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:45:02.8576001-06:00 0HLAHTRN66KGN:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:48:03.6746001-06:00 0HLAHTRN66KGP:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:49:52.2576001-06:00 0HLAHTRN66KGR:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:50:24.9726001-06:00 0HLAHTRN66KGS:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:50:28.5816001-06:00 0HLAHTRN66KGT:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:50:30.9146001-06:00 0HLAHTRN66KGU:00000002 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T08:50:46.9536001-06:00 0HLAHTRN66KGU:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:54:36.4066001-06:00 0HLAHTRN66KGV:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bagombo.Controllers.AccountController.<Logoff>d__7.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Controllers\AccountController.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebMarkupMin.AspNetCore2.WebMarkupMinMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T08:55:58.3356001-06:00 0HLAHTRN66KGV:00000005 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:56:02.5146001-06:00 0HLAHTRN66KGV:00000007 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T08:56:58.8946001-06:00 0HLAHTRN66KGV:0000000E [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T08:57:03.5006001-06:00 0HLAHTRN66KGV:00000010 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T08:57:58.4556001-06:00 0HLAHU4R1RUS3:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:57:58.4766001-06:00 0HLAHU4R1RUS3:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T08:58:43.0936001-06:00 0HLAHU4R1RUS3:00000008 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:12:44.1616001-06:00 0HLAHU4R1RUS9:00000001 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T09:13:24.3566001-06:00 0HLAHU4R1RUS9:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bagombo.Controllers.AccountController.<Logoff>d__7.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Controllers\AccountController.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebMarkupMin.AspNetCore2.WebMarkupMinMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:13:52.5146001-06:00 0HLAHU4R1RUS9:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bagombo.Controllers.AccountController.<Logoff>d__7.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Controllers\AccountController.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebMarkupMin.AspNetCore2.WebMarkupMinMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Bagombo.Startup.<<Configure>b__5_0>d.MoveNext() in C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\Startup.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:16:34.1516001-06:00 0HLAHUF7I3U3I:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T09:16:34.1736001-06:00 0HLAHUF7I3U3I:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T09:16:45.4396001-06:00 0HLAHUF7I3U3I:00000003 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T09:16:49.2586001-06:00 0HLAHUF7I3U3I:00000005 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T09:17:24.3626001-06:00 0HLAHUFMGOMQJ:00000001 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T09:17:24.3846001-06:00 0HLAHUFMGOMQJ:00000001 [WRN] The Include operation for navigation '"[bp].Comments"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T09:17:34.0576001-06:00 0HLAHUFMGOMQJ:00000003 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T09:17:39.0956001-06:00 0HLAHUFMGOMQJ:00000005 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T09:23:20.2946001-06:00 0HLAHUFMGOMQK:00000004 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T09:23:23.7946001-06:00 0HLAHUFMGOMQK:00000006 [INF] Info - Logout for "chrisacree@gmail.com" (260b42ac)
+2018-01-02T09:26:19.0166001-06:00 0HLAHUFMGOMQL:00000002 [INF] Info - Successful login for "chrisacree@gmail.com" (2f0a74b7)
+2018-01-02T09:26:24.9986001-06:00 0HLAHUFMGOMQL:00000005 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:26:54.6426001-06:00 0HLAHUFMGOMQM:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:34:32.1536001-06:00 0HLAHUFMGOMQP:00000007 [INF] Successfully updated author profile for id 1 (107b7db0)
+2018-01-02T09:34:40.6196001-06:00 0HLAHUFMGOMQP:00000009 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:34:53.5676001-06:00 0HLAHUFMGOMQQ:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:35:16.2156001-06:00 0HLAHUFMGOMQQ:00000006 [WRN] The Include operation for navigation '"[bp].Author"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2018-01-02T09:35:17.4566001-06:00 0HLAHUFMGOMQQ:00000007 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:35:40.9016001-06:00 0HLAHUFMGOMQR:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:37:06.3826001-06:00 0HLAHUFMGOMQS:0000000C [INF] Successfully updated Category with id 1 to name "Travel" and description "Same reason the bear went over the mountain." (cd36a2e1)
+2018-01-02T09:37:06.7256001-06:00 0HLAHUFMGOMQS:0000000E [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:38:13.2646001-06:00 0HLAHUFMGOMQT:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:38:25.8886001-06:00 0HLAHUFMGOMQU:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:38:30.8296001-06:00 0HLAHUFMGOMQV:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:38:39.7686001-06:00 0HLAHUFMGOMR0:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:39:35.0736001-06:00 0HLAHUFMGOMR1:00000005 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:39:40.8596001-06:00 0HLAHUFMGOMR2:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:40:13.1186001-06:00 0HLAHUFMGOMR4:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:41:10.2476001-06:00 0HLAHUFMGOMR5:00000004 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/skins/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:41:27.2236001-06:00 0HLAHUFMGOMR6:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/js/skins/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-02T09:41:49.9106001-06:00 0HLAHUFMGOMR7:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.IO.FileNotFoundException: No files found matching "/lib/jquery/dist/jquery.min.js" exist in "C:\Users\cacree.WENCOR\Google Drive\WebProjects\SandBox\AcreeBlog\src\AcreeBlog\wwwroot\"
+   at WebOptimizer.Asset.ExpandGlobs(IAsset asset, IHostingEnvironment env)
+   at WebOptimizer.Asset.GenerateCacheKey(HttpContext context)
+   at WebOptimizer.AssetBuilder.<BuildAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at WebOptimizer.AssetMiddleware.<HandleAssetAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()

@@ -1,0 +1,190 @@
+﻿
+@using AcreeBlog.ViewModels.Home
+@using Microsoft.Extensions.Options
+@using System.Text
+@using CommonMark
+
+@model BlogPostViewModel
+@inject IOptions<BagomboSettings> _settings
+@{
+    Layout = "_Layout_new";
+
+    var admin = User.IsInRole("Admins");
+    var author = User.IsInRole("Authors");
+}
+
+
+
+<section class="module">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-3 sidebar">
+                <div class="widget">
+                    <form asp-controller="Home" asp-action="Search" method="get" role="search">
+                        <div class="search-box">
+                            <input name="searchtext" class="form-control" type="search" asp-controller="Home" asp-action="Search" placeholder="Search..." />
+                            <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Blog Categories</h5>
+                    <ul class="icon-list">
+                        @foreach (var category in Model.Categories)
+                        {
+                            <li><a asp-controller="Home" asp-action="CategoryPosts" asp-route-id="@category.Id">@category.Name</a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Popular Posts</h5>
+                    <ul class="widget-posts">
+                        <li class="clearfix">
+                            <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-1.jpg" alt="Post Thumbnail" /></a></div>
+                            <div class="widget-posts-body">
+                                <div class="widget-posts-title"><a href="#">Designer Desk Essentials</a></div>
+                                <div class="widget-posts-meta">23 january</div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-2.jpg" alt="Post Thumbnail" /></a></div>
+                            <div class="widget-posts-body">
+                                <div class="widget-posts-title"><a href="#">Realistic Business Card Mockup</a></div>
+                                <div class="widget-posts-meta">15 February</div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-3.jpg" alt="Post Thumbnail" /></a></div>
+                            <div class="widget-posts-body">
+                                <div class="widget-posts-title"><a href="#">Eco bag Mockup</a></div>
+                                <div class="widget-posts-meta">21 February</div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-4.jpg" alt="Post Thumbnail" /></a></div>
+                            <div class="widget-posts-body">
+                                <div class="widget-posts-title"><a href="#">Bottle Mockup</a></div>
+                                <div class="widget-posts-meta">2 March</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Tag</h5>
+                    <div class="tags font-serif">
+                        @foreach (var tag in Model.Categories)
+                        {
+                            <a asp-controller="Home" asp-action="CategoryPosts" asp-route-id="@tag.Id">@tag.Name</a>
+                        }
+                        <a href="#" rel="tag">Blog</a><a href="#" rel="tag">Photo</a><a href="#" rel="tag">Video</a><a href="#" rel="tag">Image</a><a href="#" rel="tag">Minimal</a><a href="#" rel="tag">Post</a><a href="#" rel="tag">Theme</a><a href="#" rel="tag">Ideas</a><a href="#" rel="tag">Tags</a><a href="#" rel="tag">Bootstrap</a><a href="#" rel="tag">Popular</a><a href="#" rel="tag">English</a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Text</h5>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.
+                </div>
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Recent Comments</h5>
+                    <ul class="icon-list">
+                        <li>Maria on <a href="#">Designer Desk Essentials</a></li>
+                        <li>John on <a href="#">Realistic Business Card Mockup</a></li>
+                        <li>Andy on <a href="#">Eco bag Mockup</a></li>
+                        <li>Jack on <a href="#">Bottle Mockup</a></li>
+                        <li>Mark on <a href="#">Our trip to the Alps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+
+                <!-- Blog Post -->
+
+                <div class="post">
+                    <div class="post-thumbnail"><a href="#"><img src="/assets/images/coffee_green_phone.jpg" alt="Blog-post Thumbnail" /></a></div>
+                    <div class="post-header font-alt">
+                        <span class="post-title">
+                            <a asp-controller="Home" asp-action="BlogPostBySlug" asp-route-slug="@Model.Slug">@Model.Title</a>
+                            @if (author || admin)
+                            {
+                                <a class="post-meta" asp-controller="Author" asp-action="EditPost" asp-route-id="@Model.Id">(edit)</a>
+                            }
+                        </span>
+                        <div class="post-meta">
+                            By&nbsp;<a href="#">@Model.Author.FirstName @Model.Author.LastName</a>| @Model.PublishOn |@Model.Comments?.Count() Comments |
+                            <a href="#">Photography, </a><a href="#">Web Design</a>
+                        </div>
+                    </div>
+                    <div class="post-entry">
+                        <p>
+                            @{
+                                var content = Model.Content;
+                                var contentString = string.Join('\n', content);
+                            }
+                            @Html.Raw(CommonMarkConverter.Convert(contentString))
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Comments-->
+
+                <div class="comments">
+                    <h4 class="comment-title font-alt">There are 3 comments</h4>
+                    <div class="comment clearfix">
+                        <div class="comment-avatar"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/ryanbattles/128.jpg" alt="avatar" /></div>
+                        <div class="comment-content clearfix">
+                            <div class="comment-author font-alt"><a href="#">John Doe</a></div>
+                            <div class="comment-body">
+                                <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
+                            </div>
+                            <div class="comment-meta font-alt">
+                                Today, 14:55 - <a href="#">Reply</a>
+                            </div>
+                        </div>
+                        <div class="comment clearfix">
+                            <div class="comment-avatar"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/draganbabic/128.jpg" alt="avatar" /></div>
+                            <div class="comment-content clearfix">
+                                <div class="comment-author font-alt"><a href="#">Mark Stone</a></div>
+                                <div class="comment-body">
+                                    <p>Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
+                                </div>
+                                <div class="comment-meta font-alt">
+                                    Today, 15:34 - <a href="#">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment clearfix">
+                        <div class="comment-avatar"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/pixeliris/128.jpg" alt="avatar" /></div>
+                        <div class="comment-content clearfix">
+                            <div class="comment-author font-alt"><a href="#">Andy</a></div>
+                            <div class="comment-body">
+                                <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
+                            </div>
+                            <div class="comment-meta font-alt">
+                                Today, 14:59 - <a href="#">Reply</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comment Form -->
+
+                <div class="comment-form">
+                    <h4 class="comment-form-title font-alt">Add your comment</h4>
+                    <form method="post">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">Name</label>
+                            <input class="form-control" id="name" type="text" name="name" placeholder="Name" />
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="email">Name</label>
+                            <input class="form-control" id="email" type="text" name="email" placeholder="E-mail" />
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="comment" name="comment" rows="4" placeholder="Comment"></textarea>
+                        </div>
+                        <button class="btn btn-round btn-d" type="submit">Post comment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
