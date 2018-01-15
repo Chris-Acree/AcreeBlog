@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using PagedList.Core;
+using X.PagedList;
 
 namespace PagedList
 {
@@ -16,7 +16,7 @@ namespace PagedList
     /// <seealso cref="PagedList{T}"/>
     /// <seealso cref="List{T}"/>
     [Serializable]
-    public class StaticPagedList<T> : Core.BasePagedList<T>
+    public class StaticPagedList<T> : BasePagedList<T>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="StaticPagedList{T}"/> class that contains the already divided subset and information about the size of the superset and the subset's position within it.

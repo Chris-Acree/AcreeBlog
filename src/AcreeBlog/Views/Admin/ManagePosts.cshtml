@@ -1,5 +1,10 @@
 ﻿@using AcreeBlog.ViewModels.Admin
-@model ManagePostsViewModel
+@using X.PagedList.Mvc.Core; @*import this so we get our HTML Helper*@
+@using X.PagedList; @*import this so we can cast our list to IPagedList (only necessary because ViewBag is dynamic)*@
+
+<!-- import the included stylesheet for some (very basic) default styling -->
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@model IPagedList<AdminBlogPostViewModel>
 @{
     ViewData["Title"] = "Admin - Manage Posts";
     Layout = "_Layout_New";
@@ -28,18 +33,18 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var post in Model.posts)
+                            @foreach (var post in Model)
                             {
                                 var aid = $"a{post.Id}";
                                 <tr id="@post.Id">
                                     <td>@post.Id</td>
                                     <td>@post.Title</td>
-                                    <td>@post.AuthorViewModel?.FirstName @post.AuthorViewModel?.LastName</td>
+                                    <td>@post.AuthorFirstName @post.AuthorLastName</td>
                                     <td>@post.Description</td>
                                     <td>@post.PublishOn</td>
                                     <td>@post.Public</td>
                                     <td>
-                                        @if (@post.AuthorViewModel?.ApplicationUserId == null)
+                                        @if (@post.AuthorApplicationUserId == null)
                                         {
                                             <span>Yes</span>
                                         }
@@ -58,13 +63,14 @@
                         </tbody>
                     </table>
                     @{
-                        var hasPrevious = Model.posts.HasPreviousPage ? "" : "disabled";
-                        var hasNext = Model.posts.HasNextPage ? "" : "disabled";
+                        var hasPrevious = Model.HasPreviousPage ? "" : "disabled";
+                        var hasNext = Model.HasNextPage ? "" : "disabled";
                     }
                     <div class="float-right">
                         <ul class="pagination text">
-                            <li class="page-item @hasPrevious"><a class="page-link" asp-controller="Admin" asp-route-page="@(Model.posts.PageIndex - 1)">Previous</a></li>
-                            <li class="page-item @hasNext"><a class="page-link" asp-controller="Admin" asp-route-page="@(Model.posts.PageIndex + 1)">Next</a></li>
+
+                            <!-- output a paging control that lets the user navigation to the previous page, next page, etc -->
+                            //Html.PagedListPager((IPagedList)ViewBag.Names, page => Url.Action("Index", new { page }))
                         </ul>
                     </div>
                 </div>

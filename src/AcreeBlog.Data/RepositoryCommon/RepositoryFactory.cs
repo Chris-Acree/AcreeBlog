@@ -12,14 +12,5 @@ namespace AcreeBlog.Data.RepositoryCommon
 
         private IServiceProvider _provider;
 
-        public TopicRepository GetTopicRepository()
-        {
-            return _provider.GetService<TopicRepository>();
-        }
-
-        public CategoryRepository GetCategoryRepository()
-        {
-            return _provider.GetService<CategoryRepository>();
-        }
     }
 }

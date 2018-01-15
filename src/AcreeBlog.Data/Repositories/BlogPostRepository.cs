@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using AcreeBlog.Data.Models;
 using AcreeBlog.Data.RepositoryCommon;
 using Microsoft.EntityFrameworkCore;
-using PagedList.Core;
+using X.PagedList;
 
 namespace AcreeBlog.Data.Repositories
 {
@@ -40,6 +40,16 @@ namespace AcreeBlog.Data.Repositories
                   .OrderByDescending(bp => bp.ModifiedAt)
                   .Include(a => a.Author)
                   .ToPagedList(currentPage ?? 1, pageSize);
+
+            return posts;
+        }
+
+        public IList<BlogPost> GetAllPosts()
+        {
+            var posts = _dbContext.BlogPosts
+                  .OrderByDescending(bp => bp.ModifiedAt)
+                  .Include(a => a.Author)
+                  .ToList();
 
             return posts;
         }

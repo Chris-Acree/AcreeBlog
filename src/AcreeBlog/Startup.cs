@@ -38,8 +38,9 @@ using AutoMapper;
 using AcreeBlog.Data.RepositoryCommon;
 using AcreeBlog.Common;
 using AcreeBlog.ViewModels;
+using AcreeBlog.ViewModels.Admin;
+using X.PagedList;
 using System.Collections.Generic;
-using PagedList.Core;
 
 namespace AcreeBlog
 {
@@ -121,13 +122,16 @@ namespace AcreeBlog
                 //cfg.CreateMap<Type sourceType, Type destinationType> ();
                 //cfg.CreateMap<Models.ViewModels.Admin.ManagePostsViewModel, ViewModels.Admin.ManagePostsViewModel>();
                
+                /*
                 cfg.CreateMap<Author, AuthorViewModel>();
                 cfg.CreateMap<BlogPostCategory, BlogPostCategoryViewModel>();
                 cfg.CreateMap<BlogPostTopic, BlogPostTopicViewModel>();
                 cfg.CreateMap<Comment, CommentViewModel>();
                 cfg.CreateMap<Category, CategoryViewModel>();
                 cfg.CreateMap<Topic, TopicViewModel>();
+                */
                 // https://www.softwarerockstar.com/complex-object-mapping-using-automapper/
+                /*
                 cfg.CreateMap<BlogPost, BlogPostViewModel>()
                     .ForMember(dest => dest.AuthorViewModel, opt => opt.MapFrom( src => src.Author))
                     .ForMember(dest => dest.BlogPostCategoryViewModel, opt => opt.MapFrom(src => src.BlogPostCategory))
@@ -140,12 +144,21 @@ namespace AcreeBlog
 
                 cfg.CreateMap<PagedList<BlogPost>, PagedList<BlogPostViewModel>>();
                 cfg.CreateMap<IPagedList<BlogPost>, IPagedList<BlogPostViewModel>>();
+                */
 
+                // automapper does not support PagedLists out of the box
+                
+                cfg.CreateMap<BlogPost, AdminBlogPostViewModel>()
+                    .ForMember(dest => dest.AuthorFirstName, opt => opt.MapFrom(src => src.Author.FirstName))
+                    .ForMember(dest => dest.AuthorLastName, opt => opt.MapFrom(src => src.Author.LastName))
+                    .ForMember(dest => dest.AuthorApplicationUserId, opt => opt.MapFrom(src => src.Author.ApplicationUserId)
+                );
+
+                cfg.CreateMap<List<BlogPost>, List<AdminBlogPostViewModel>>();
 
             });
             mapperConfig.AssertConfigurationIsValid();
             var mapper = mapperConfig.CreateMapper();
-
 
 
             var twitterKey = _configuration[$"{_configuration["TwitterKeyConfigName"]}"];

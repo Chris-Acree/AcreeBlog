@@ -5,7 +5,7 @@ using AutoMapper;
 using AcreeBlog.Data.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using PagedList.Core;
+using X.PagedList;
 
 namespace AcreeBlog.Services
 {
@@ -38,6 +38,13 @@ namespace AcreeBlog.Services
         public async Task<IPagedList<BlogPost>> GetAllPostsPaginatedAsync(int currentPage, int pageSize)
         {
             var result = await _blogPostRepository.GetAllPostsPaginatedAsync(currentPage, pageSize);
+            return result;
+        }
+
+
+        public IList<BlogPost> GetAllPosts()
+        {
+            var result = _blogPostRepository.GetAllPosts();
             return result;
         }
 

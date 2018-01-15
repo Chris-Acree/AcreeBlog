@@ -14,9 +14,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
-using AcreeBlog.ViewModels;
-using AcreeBlog.Models.ViewModels.Admin;
-using PagedList.Core;
+using X.PagedList;
+using System.Collections.Generic;
 
 namespace AcreeBlog.Controllers
 {
@@ -282,7 +281,7 @@ namespace AcreeBlog.Controllers
     public async Task<IActionResult> ManageCategories()
     {
             //var gmcvmq = new GetManageCategoriesViewModelQuery
-            ViewModels.Admin.ManageCategoriesViewModel mfvm = new ViewModels.Admin.ManageCategoriesViewModel()
+        ViewModels.Admin.ManageCategoriesViewModel mfvm = new ViewModels.Admin.ManageCategoriesViewModel()
         {
             Categories = _adminService.CategoriessGetAll()
         };
@@ -327,13 +326,37 @@ namespace AcreeBlog.Controllers
         */
         int currentPage = page ?? 1;
         int pageSize = 15;
+        //var paginatedBlogPosts = await _adminService.GetAllPostsPaginatedAsync(currentPage, pageSize);
+        var listBlogPosts = _adminService.GetAllPosts();
 
-        var paginatedBlogPosts = await _adminService.GetAllPostsPaginatedAsync(currentPage, pageSize);
 
-        var blogPostsViewModel = new ViewModels.Admin.ManagePostsViewModel
+        //var blogPostsViewModel = _mapper.Map<PagedList<AdminBlogPostViewModel>>(paginatedBlogPosts);
+        var blogPostsViewModel = _mapper.Map<List<AdminBlogPostViewModel>>(listBlogPosts);
+                //.ToPagedList(currentPage, pageSize)
+                //.ToMappedPagedList<BlogPost, AdminBlogPostViewModel>();
+
+        /*
+        List<AdminBlogPostViewModel> blogPostsViewModel = new List<AdminBlogPostViewModel>();
+
+        foreach (BlogPost post in paginatedBlogPosts)
         {
-            posts = _mapper.Map<PagedList<BlogPostViewModel>>(paginatedBlogPosts)
-        };
+            blogPostsViewModel.Add(new AdminBlogPostViewModel()
+            {
+                Id = post.Id,
+                AuthorId = post.AuthorId,
+                AuthorFirstName = post.Author.FirstName,
+                AuthorLastName = post.Author.LastName,
+                AuthorApplicationUserId = post.Author.ApplicationUserId,
+                Title = post.Title,
+                Slug = post.Slug,
+                Description = post.Description,
+                PublishOn = post.PublishOn,
+                Public = post.Public
+            });
+        }
+
+        blogPostsViewModel = blogPostsViewModel.ToPagedList(currentPage, pageSize);
+        */
 
         return View(blogPostsViewModel);
     }

@@ -1,9 +1,9 @@
-﻿using PagedList.Core;
+﻿using X.PagedList;
 
 namespace AcreeBlog.ViewModels.Admin
 {
-    public class ManagePostsViewModel
+    public class AdminManagePostsViewModel
     {
-        public PagedList<BlogPostViewModel> posts;
+        public PagedList<AdminBlogPostViewModel> posts;
     }
 }
